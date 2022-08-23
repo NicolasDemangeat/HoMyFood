@@ -1,0 +1,18 @@
+
+/* header */
+.en-tete {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 1px 5px grey;
+}
+.en-tete__img {
+    width: 180px;
+    height: 40px;
+    margin-top: 22px;
+    img {
+        width: 100%;
+    }
+
+}
