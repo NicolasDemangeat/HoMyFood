@@ -1,5 +1,6 @@
 @import 'footer.scss';
 @import 'accueil-header.scss';
+@import 'btn-violet.scss';
 /* body */
 body {
     box-sizing: content-box;
@@ -9,14 +10,48 @@ body {
 }
 /* barre de recherche */
 .search-bar {
-    background-color: lightgrey;
+    background-color: rgb(224, 224, 224);
     display: flex;
     justify-content: center;
+    height: 50px;
     .search-bar__input {
         border: none;
-        background-color: lightgrey;
+        background-color: rgb(224, 224, 224);;
+        &::placeholder {
+            text-align: center;
+            font-weight: 600;
+            font-size: large;
+            color: rgb(43, 43, 43);
+        }
     }
     .search_bar__logo {
         margin-right: 1px;
+    }
+}
+
+/* section presentation */
+.presentation {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    .presentation__titre {
+        margin: 0;
+        padding-top: 35px;
+        text-align: center;
+        font-size: x-large;
+        font-weight: 900;
+        width: 80%;
+    }
+    .presentation__p {
+        margin: 0;
+        padding-top: 15px;
+        text-align: center;
+        font-size: large;
+        font-weight: 500;
+        width: 90%;
+        color: rgb(63, 63, 63);
+        padding-bottom: 35px;
     }
 }
