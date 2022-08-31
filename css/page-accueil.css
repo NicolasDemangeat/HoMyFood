@@ -56,7 +56,7 @@ footer {
 }
 
 .btn__violet {
-  background: linear-gradient(pink, purple);
+  background: linear-gradient(#FF79DA, #9356DC);
   color: white;
   font-weight: 600;
   padding: 20px;
@@ -76,11 +76,12 @@ body {
   background-color: rgb(224, 224, 224);
   display: flex;
   justify-content: center;
-  height: 50px;
+  align-items: center;
 }
 .search-bar .search-bar__input {
   border: none;
   background-color: rgb(224, 224, 224);
+  height: 50px;
 }
 .search-bar .search-bar__input::placeholder {
   text-align: center;
@@ -117,6 +118,21 @@ body {
   width: 90%;
   color: rgb(63, 63, 63);
   padding-bottom: 35px;
+}
+
+/* section fonctionnement */
+.bloc-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bloc-btn .bloc-btn__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 80%;
+  background-color: whitesmoke;
 }
 
 /*# sourceMappingURL=page-accueil.css.map */

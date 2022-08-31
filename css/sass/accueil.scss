@@ -13,10 +13,12 @@ body {
     background-color: rgb(224, 224, 224);
     display: flex;
     justify-content: center;
-    height: 50px;
+    align-items: center;
+    
     .search-bar__input {
         border: none;
-        background-color: rgb(224, 224, 224);;
+        background-color: rgb(224, 224, 224);
+        height: 50px;
         &::placeholder {
             text-align: center;
             font-weight: 600;
@@ -55,3 +57,20 @@ body {
         padding-bottom: 35px;
     }
 }
+
+/* section fonctionnement */
+.bloc-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .bloc-btn__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        width: 80%;
+        background-color: whitesmoke;
+    }
+}
+
