@@ -56,7 +56,7 @@ footer {
 }
 
 .btn__violet {
-  background: linear-gradient(#FF79DA, #9356DC);
+  background: linear-gradient(170deg, #FF79DA, #9356DC 65%);
   color: white;
   font-weight: 600;
   padding: 20px;
@@ -69,6 +69,15 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  object-fit: cover;
 }
 
 /* barre de recherche */
@@ -126,13 +135,47 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.bloc-btn p {
+  align-self: center;
+}
+.bloc-btn .bloc-btn__nb {
+  background-color: #9356DC;
+  color: white;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
 .bloc-btn .bloc-btn__btn {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   border-radius: 20px;
   width: 80%;
   background-color: whitesmoke;
+}
+
+/* section resstaurant */
+.bloc-restau {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  height: 1000px;
+}
+.bloc-restau .bloc-restau__tuile {
+  height: 20%;
+  width: 50%;
+  background-color: white;
+}
+.bloc-restau .bloc-restau__tuile--img {
+  height: 80%;
+  width: 100%;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=page-accueil.css.map */
