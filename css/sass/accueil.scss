@@ -1,11 +1,16 @@
+@media screen and (min-width: 900px) {
+    
+    .bloc-btn {
+        .bloc-btn__btn {
+            width: 50%;
+        }
+    }
+
+}
 @import 'footer.scss';
 @import 'accueil-header.scss';
 @import 'btn-violet.scss';
-@media screen and (min-width: 900px) {
-    #test {
-        width: 50%;
-    }
-  }
+
 /* body */
 body {
     box-sizing: content-box;
@@ -146,11 +151,25 @@ img {
             margin-top: 5px;
         }
 
-        &--contenu>p {
+        &--contenu>.info {
             margin: 0;
         }
-    }
+        &--contenu>p {
+            font-weight: 400;
+        }
 
+        &--new {
+            border: #99E2D0 2px solid;
+            border-radius: 2px;
+            font-weight: bold;
+            background-color: #99E2D0;
+            color: #398064;
+            position: sticky;
+            left: 210px;
+            bottom: 205px;
+            font-size: small;
+        }
+    }
 }
 
 
