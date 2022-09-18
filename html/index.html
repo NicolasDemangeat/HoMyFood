@@ -13,97 +13,99 @@
     <title>HoMyFood</title>
 </head>
 <body>
-    <header class="en-tete">
-        <div class="en-tete__img">
-            <img src="../assets/logo/ohmyfood.png" alt="Logo du site Ho My Food">
-        </div>        
-    </header>
-    <main>
-        <form action="post">
-            <div class="search-bar">
-                <i class="fa-solid fa-location-dot search_bar__logo"></i>
-                <input type="search" class="search-bar__input" placeholder="Paris, Belleville"/>
-            </div>
-        </form>
-        <article>
-            <div class="presentation">
-                <h1 class="presentation__titre">Reservez le menu qui vous convient</h1>
-                <p class="presentation__p">Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
-                <div class="presentation__btn btn__violet">Explorez nos restaurants</div>
-            </div>
-        </article>
-        <nav>
-            <div class="bloc-btn">
-                <h2>Fonctionnement</h2>
-                <a href="#" id="test" class="bloc-btn__btn">
-                    <div class="bloc-btn__nb">1</div>
-                    <i class="icon fa-solid fa-mobile-screen-button"></i>
-                    <p>Choissez un restaurant</p>
-                </a>
-                <a href="#" class="bloc-btn__btn">
-                    <div class="bloc-btn__nb">2</div>
-                    <i class="icon fa-solid fa-list-ul"></i>
-                    <p>Composez votre menu</p>
-                </a>
-                <a href="#" class="bloc-btn__btn">
-                    <div class="bloc-btn__nb">3</div>
-                    <i class="icon fa-solid fa-store"></i>
-                    <p>Dégustez au restaurant</p>
-                </a>
-            </div>
-        </nav>
-        <article>
-            <div class="bloc-restau">
-                <h2>Restaurants</h2>
-                <a href="menu-palette-gout.html" class="bloc-restau__tuile">
-                    <img src="../assets/restaurants/la-palette-du-gout.jpg" alt="Restaurant la palette du goût" class="bloc-restau__tuile--img">
-                    <div class="bloc-restau__tuile--contenu">
-                        <h3 class="info">La palette du goût</h3>
-                        <p class="info">Ménilmontant</p>
-                        <i class="fa-regular fa-heart"></i>
-                    </div>
-                    <div class="bloc-restau__tuile--new">Nouveau</div>
-                </a>
-                <a href="#" class="bloc-restau__tuile">
-                    <img src="../assets/restaurants/la-note-enchante.jpg" alt="Restaurant La note enchantée" class="bloc-restau__tuile--img">
-                    <div class="bloc-restau__tuile--contenu">
-                        <h3 class="info">La note enchantée</h3>
-                        <p class="info">Charonne</p>
-                        <i class="fa-regular fa-heart"></i>
-                    </div>
-                </a>
-                <a href="#" class="bloc-restau__tuile">
-                    <img src="../assets/restaurants/a-la-francaise.jpg" alt="Restaurant a la française" class="bloc-restau__tuile--img">
-                    <div class="bloc-restau__tuile--contenu">
-                        <h3 class="info">À la française</h3>
-                        <p class="info">Cité Rouge</p>
-                        <i class="fa-regular fa-heart"></i>
-                    </div>
-                </a>
-                <a href="#" class="bloc-restau__tuile">
-                        <img src="../assets/restaurants/le-delice-des-sens.jpg" alt="Restaurant Le délice des sens" class="bloc-restau__tuile--img">
-                    <div class="bloc-restau__tuile--contenu">
-                        <h3 class="info">Le délice des sens</h3>
-                        <p class="info">Folie-Mérincourt</p>
-                        <i class="fa-regular fa-heart"></i>
-                    </div>
-                </a>
-            </div>
-        </article>
-
-    </main>
-    <footer>
-        <div class="ftr-conteneur">
-            <div class="ftr-conteneur__logo">
-                <img src="../assets/logo/ohmyfood-blanc.png" alt="Logo du site Ho My Food">
-            </div>
-            <div class="ftr-conteneur__items">
-                <p><i class="fa-solid fa-utensils ftr-conteneur__items--icon"></i>Propposer un restaurant</p>
-                <p><i class="fa-solid fa-handshake-angle ftr-conteneur__items--icon"></i>Devenir partenaire</p>
-                <p>Mentions légales</p>
-                <p>Contact</p>
-            </div>
-        </div>        
-    </footer>
+    <div class="bloc-page">
+        <header class="en-tete">
+            <div class="en-tete__img">
+                <img src="../assets/logo/ohmyfood.png" alt="Logo du site Ho My Food">
+            </div>        
+        </header>
+        <main>
+            <form action="post">
+                <div class="search-bar">
+                    <i class="fa-solid fa-location-dot search_bar__logo"></i>
+                    <input type="search" class="search-bar__input" placeholder="Paris, Belleville"/>
+                </div>
+            </form>
+            <article>
+                <div class="presentation">
+                    <h1 class="presentation__titre">Reservez le menu qui vous convient</h1>
+                    <p class="presentation__p">Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
+                    <a href="#" class="btn__violet">Explorez nos restaurants</a>
+                </div>
+            </article>
+            <nav>
+                <div class="bloc-btn">
+                    <h2>Fonctionnement</h2>
+                    <a href="#" id="test" class="bloc-btn__btn">
+                        <div class="bloc-btn__nb">1</div>
+                        <i class="icon fa-solid fa-mobile-screen-button"></i>
+                        <p>Choissez un restaurant</p>
+                    </a>
+                    <a href="#" class="bloc-btn__btn">
+                        <div class="bloc-btn__nb">2</div>
+                        <i class="icon fa-solid fa-list-ul"></i>
+                        <p>Composez votre menu</p>
+                    </a>
+                    <a href="#" class="bloc-btn__btn">
+                        <div class="bloc-btn__nb">3</div>
+                        <i class="icon fa-solid fa-store"></i>
+                        <p>Dégustez au restaurant</p>
+                    </a>
+                </div>
+            </nav>
+            <article>
+                <div class="bloc-restau">
+                    <h2>Restaurants</h2>
+                    <a href="menu-palette-gout.html" class="bloc-restau__tuile">
+                        <img src="../assets/restaurants/la-palette-du-gout.jpg" alt="Restaurant la palette du goût" class="bloc-restau__tuile--img">
+                        <div class="bloc-restau__tuile--contenu">
+                            <h3 class="info">La palette du goût</h3>
+                            <p class="info">Ménilmontant</p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="bloc-restau__tuile--new">Nouveau</div>
+                    </a>
+                    <a href="#" class="bloc-restau__tuile">
+                        <img src="../assets/restaurants/la-note-enchante.jpg" alt="Restaurant La note enchantée" class="bloc-restau__tuile--img">
+                        <div class="bloc-restau__tuile--contenu">
+                            <h3 class="info">La note enchantée</h3>
+                            <p class="info">Charonne</p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="bloc-restau__tuile">
+                        <img src="../assets/restaurants/a-la-francaise.jpg" alt="Restaurant a la française" class="bloc-restau__tuile--img">
+                        <div class="bloc-restau__tuile--contenu">
+                            <h3 class="info">À la française</h3>
+                            <p class="info">Cité Rouge</p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="bloc-restau__tuile">
+                            <img src="../assets/restaurants/le-delice-des-sens.jpg" alt="Restaurant Le délice des sens" class="bloc-restau__tuile--img">
+                        <div class="bloc-restau__tuile--contenu">
+                            <h3 class="info">Le délice des sens</h3>
+                            <p class="info">Folie-Mérincourt</p>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </div>
+            </article>
+    
+        </main>
+        <footer>
+            <div class="ftr-conteneur">
+                <div class="ftr-conteneur__logo">
+                    <img src="../assets/logo/ohmyfood-blanc.png" alt="Logo du site Ho My Food">
+                </div>
+                <div class="ftr-conteneur__items">
+                    <p><i class="fa-solid fa-utensils ftr-conteneur__items--icon"></i>Propposer un restaurant</p>
+                    <p><i class="fa-solid fa-handshake-angle ftr-conteneur__items--icon"></i>Devenir partenaire</p>
+                    <p>Mentions légales</p>
+                    <p>Contact</p>
+                </div>
+            </div>        
+        </footer>
+    </div>
 </body>
 </html>

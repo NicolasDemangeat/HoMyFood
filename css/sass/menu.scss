@@ -2,14 +2,51 @@
 @import 'accueil-header.scss';
 @import 'btn-violet.scss';
 
+/* body */
+body {
+    background: url(../../assets/fon.jpg);
+}
+
+.bloc-page {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: auto;
+    max-width: 900px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    object-fit: cover;
+}
+
+/* image en-tête */
 .conteneur-img {
     width: 100%;
     height: 250px;
-    object-fit: cover;
     overflow: hidden;
+    position: relative;
+    z-index: 1;
 
     >img {
         width: 100%;
         height: 100%;
     }
+}
+
+/* bloc des menus */
+
+.bloc-menu {
+    padding-top: 35px;
+    position: relative;
+    bottom: 35px;
+    padding-bottom: 35px;
+    z-index: 2;
+    background-color: antiquewhite;
+    border-radius: 40px 40px 0 0;
+    margin-bottom: -35px;
 }
