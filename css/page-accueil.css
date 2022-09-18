@@ -1,5 +1,5 @@
 @media screen and (min-width: 900px) {
-  .bloc-btn .bloc-btn__btn {
+  .bloc-btn__btn {
     width: 50%;
   }
 }
@@ -74,6 +74,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   margin: auto;
+  max-width: 990px;
+  background-color: #9356DC;
 }
 
 a {

@@ -1,11 +1,7 @@
 @media screen and (min-width: 900px) {
-    
-    .bloc-btn {
-        .bloc-btn__btn {
-            width: 50%;
-        }
+    .bloc-btn__btn {
+        width: 50%;
     }
-
 }
 @import 'footer.scss';
 @import 'accueil-header.scss';
@@ -17,6 +13,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     margin: auto;
+    max-width: 990px;
+    background-color: #9356DC;
 }
 
 a {
@@ -154,6 +152,7 @@ img {
         &--contenu>.info {
             margin: 0;
         }
+        
         &--contenu>p {
             font-weight: 400;
         }
