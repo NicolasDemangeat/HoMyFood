@@ -90,6 +90,13 @@ img {
   object-fit: cover;
 }
 
+hr {
+  background-color: #99E2D0;
+  border: #99E2D0;
+  height: 4px;
+  width: 45px;
+}
+
 /* image en-tête */
 .conteneur-img {
   width: 100%;
@@ -110,9 +117,20 @@ img {
   bottom: 35px;
   padding-bottom: 35px;
   z-index: 2;
-  background-color: antiquewhite;
+  background-color: #f7f7f7;
   border-radius: 40px 40px 0 0;
   margin-bottom: -35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bloc-menu__titre {
+  display: flex;
+}
+.bloc-menu__titre > i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=menu.css.map */
