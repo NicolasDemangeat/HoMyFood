@@ -1,0 +1,12 @@
+.btn {
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 1px 5px 5px lightgray;
+    width: 92%;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    scale: 1.002;
+    box-shadow: 1px 5px 5px rgb(196, 196, 196);
+}
