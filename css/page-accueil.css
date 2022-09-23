@@ -45,14 +45,21 @@ footer {
   box-shadow: 0 1px 5px grey;
   z-index: 10;
 }
-
 .en-tete__img {
   width: 180px;
   height: 40px;
   margin-top: 22px;
+  align-self: center;
 }
 .en-tete__img img {
   width: 100%;
+}
+.en-tete__back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 150px;
+  font-size: xx-large;
 }
 
 .btn__violet {
@@ -61,6 +68,8 @@ footer {
   font-weight: 600;
   padding: 20px;
   border-radius: 50px;
+  width: 180px;
+  text-align: center;
 }
 
 .btn__violet:hover {
@@ -69,7 +78,7 @@ footer {
 
 /* body */
 body {
-  background: url(../../assets/fon.jpg);
+  background: url(../assets/fon.jpg);
 }
 
 .bloc-page {
