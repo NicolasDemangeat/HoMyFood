@@ -1,4 +1,21 @@
-@media screen and (min-width: 899px) {
+@media screen and (max-width: 899px) {
+
+    .bloc-restau {
+        .bloc-restau--new {
+            background-color: red;
+            border: #99E2D0 2px solid;
+            border-radius: 2px;
+            font-weight: bold;
+            font-size: small;
+            color: #398064;
+            position: relative;
+            left: 220px;
+            bottom: 180px;
+            width: 80px;
+            height: 20px;
+            text-align: center;
+        }
+    }
 }
 @import 'footer.scss';
 @import 'header.scss';
@@ -6,7 +23,7 @@
 
 /* body */
 body {
-    background: url(../assets/fon.jpg);
+    background: linear-gradient(rgba(147, 86, 220, .8), rgba(255, 121, 218, .4) 80%);
 }
 
 .bloc-page {
@@ -126,6 +143,7 @@ img {
     &__btn:hover{
         opacity: 0.80;
         background-color: #ffe9fa;
+        box-shadow: 1px 5px 5px rgb(192, 192, 192);
         .icon {
             color: #9356DC;
         }
@@ -159,35 +177,46 @@ img {
 
         &--contenu {
             margin-left: 10px;
-            margin-top: 5px;
             display: flex;
-            flex-direction: column;
-        }
+            justify-content: space-between;
 
-        &--contenu>.info {
-            margin: auto;
-        }
-        
-        &--contenu>p {
-            font-weight: 400;
+            .info>p{
+                margin-top: 0;
+                margin-bottom: 0;
+                font-weight: 400;
+            }
+
+            .info>h3 {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
         }
 
         &--contenu>i {
             align-self: flex-end;
             margin-right: 35px;
+            font-size: x-large;
         }
 
         &--new {
+            background-color: #99E2D0;
             border: #99E2D0 2px solid;
             border-radius: 2px;
             font-weight: bold;
-            background-color: #99E2D0;
-            color: #398064;
-            position: sticky;
-            left: 210px;
-            bottom: 205px;
             font-size: small;
+            color: #398064;
+            position: relative;
+            left: 220px;
+            bottom: 180px;
+            width: 80px;
+            height: 20px;
+            text-align: center;
+
         }
+    }
+
+    &__tuile:hover {
+        box-shadow: 1px 5px 5px rgb(192, 192, 192);
     }
 }
 

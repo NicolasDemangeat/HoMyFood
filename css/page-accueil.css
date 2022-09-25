@@ -1,3 +1,19 @@
+@media screen and (max-width: 899px) {
+  .bloc-restau .bloc-restau--new {
+    background-color: red;
+    border: #99E2D0 2px solid;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: small;
+    color: #398064;
+    position: relative;
+    left: 220px;
+    bottom: 180px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+  }
+}
 /* footer */
 footer {
   margin: 0;
@@ -78,7 +94,7 @@ footer {
 
 /* body */
 body {
-  background: url(../assets/fon.jpg);
+  background: linear-gradient(rgba(147, 86, 220, 0.8), rgba(255, 121, 218, 0.4) 80%);
 }
 
 .bloc-page {
@@ -194,6 +210,7 @@ img {
 .bloc-btn__btn:hover {
   opacity: 0.8;
   background-color: #ffe9fa;
+  box-shadow: 1px 5px 5px rgb(192, 192, 192);
 }
 .bloc-btn__btn:hover .icon {
   color: #9356DC;
@@ -224,30 +241,39 @@ img {
 }
 .bloc-restau__tuile--contenu {
   margin-left: 10px;
-  margin-top: 5px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 }
-.bloc-restau__tuile--contenu > .info {
-  margin: auto;
-}
-.bloc-restau__tuile--contenu > p {
+.bloc-restau__tuile--contenu .info > p {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 400;
+}
+.bloc-restau__tuile--contenu .info > h3 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .bloc-restau__tuile--contenu > i {
   align-self: flex-end;
   margin-right: 35px;
+  font-size: x-large;
 }
 .bloc-restau__tuile--new {
+  background-color: #99E2D0;
   border: #99E2D0 2px solid;
   border-radius: 2px;
   font-weight: bold;
-  background-color: #99E2D0;
-  color: #398064;
-  position: sticky;
-  left: 210px;
-  bottom: 205px;
   font-size: small;
+  color: #398064;
+  position: relative;
+  left: 220px;
+  bottom: 180px;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+}
+.bloc-restau__tuile:hover {
+  box-shadow: 1px 5px 5px rgb(192, 192, 192);
 }
 
 /*# sourceMappingURL=page-accueil.css.map */
