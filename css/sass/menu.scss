@@ -92,6 +92,14 @@ hr {
         display: flex;
         justify-content: space-between;
 
+        &--animation {
+            transform: scale(0);
+            transition: transform 1s;
+        }
+        &:hover > &--animation {
+            transform: scale(1.15);
+        }
+
         &--prix {
             display: flex;
             justify-content: center;
