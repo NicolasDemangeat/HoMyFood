@@ -41,7 +41,7 @@ footer {
   background-color: white;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   box-shadow: 0 1px 5px grey;
   z-index: 10;
 }
@@ -49,7 +49,8 @@ footer {
   width: 180px;
   height: 40px;
   margin-top: 22px;
-  align-self: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 .en-tete__img img {
   width: 100%;
@@ -58,8 +59,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 150px;
   font-size: xx-large;
+  margin-left: 25px;
 }
 
 .btn__violet {
@@ -241,6 +242,10 @@ img {
   align-self: flex-end;
   margin-right: 35px;
   font-size: x-large;
+  transition: color 2s;
+}
+.bloc-restau__tuile--contenu > .fa-heart:hover {
+  color: #FFCCCC;
 }
 .bloc-restau__tuile--new {
   background-color: #99E2D0;

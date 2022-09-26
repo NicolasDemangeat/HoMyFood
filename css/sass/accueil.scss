@@ -177,6 +177,11 @@ img {
             align-self: flex-end;
             margin-right: 35px;
             font-size: x-large;
+            transition: color 2s;
+        }
+
+        &--contenu>.fa-heart:hover {
+            color: #FFCCCC
         }
 
         &--new {

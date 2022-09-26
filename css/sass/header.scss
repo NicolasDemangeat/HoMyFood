@@ -4,7 +4,7 @@
     background-color: white;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     box-shadow: 0 1px 5px grey;
     z-index: 10;
 
@@ -12,19 +12,19 @@
         width: 180px;
         height: 40px;
         margin-top: 22px;
-        align-self: center;
+        margin-right: auto;
+        margin-left: auto;
         img {
             width: 100%;
-        }
-    
+        }    
     }
 
     &__back {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 150px;
         font-size: xx-large;
+        margin-left: 25px;
         
     }
 }

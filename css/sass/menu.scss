@@ -93,10 +93,14 @@ hr {
         justify-content: space-between;
 
         &--animation {
+            margin-right: -30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             transform: scale(0);
             transition: transform 1s;
         }
-        &:hover > &--animation {
+        &:hover > &--animation {            
             transform: scale(1.15);
         }
 
