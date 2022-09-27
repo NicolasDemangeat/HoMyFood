@@ -88,8 +88,20 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* a desactiver */
+  display: none;
+  animation: cssAnimation 0s ease-in 3s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
+@keyframes cssAnimation {
+  to {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+}
 .lds-hourglass {
   display: inline-block;
   position: relative;
@@ -288,10 +300,16 @@ img {
   align-self: flex-end;
   margin-right: 35px;
   font-size: x-large;
-  transition: color 2s;
+  transition: color 1s;
 }
-.bloc-restau__tuile--contenu > .fa-heart:hover {
-  color: #FFCCCC;
+.bloc-restau__tuile--contenu > .coeur-plein {
+  display: none;
+}
+.bloc-restau__tuile--contenu > .coeur-vide:hover {
+  color: #ff08ea;
+}
+.bloc-restau__tuile--contenu > .coeur-vide:hover > .coeurplein {
+  display: inline-block;
 }
 .bloc-restau__tuile--new {
   background-color: #99E2D0;

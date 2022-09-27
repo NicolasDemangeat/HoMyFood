@@ -172,17 +172,20 @@ hr {
 .bloc-menu__bouton {
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 .bloc-menu__bouton--animation {
-  margin-right: -30px;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: scale(0);
-  transition: transform 1s;
+  width: 0;
+  height: 85px;
+  transition: width 1s;
+  background-color: aquamarine;
 }
 .bloc-menu__bouton:hover > .bloc-menu__bouton--animation {
-  transform: scale(1.15);
+  width: 80px;
 }
 .bloc-menu__bouton--prix {
   display: flex;

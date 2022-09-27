@@ -9,7 +9,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+/* a desactiver */
+    display: none;
+
+
+    animation: cssAnimation 0s ease-in 3s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
+
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+
+
 
 .lds-hourglass {
     display: inline-block;

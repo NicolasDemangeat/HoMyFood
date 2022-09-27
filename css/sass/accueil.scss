@@ -178,11 +178,20 @@ img {
             align-self: flex-end;
             margin-right: 35px;
             font-size: x-large;
-            transition: color 2s;
+            transition: color 1s;
+
         }
 
-        &--contenu>.fa-heart:hover {
-            color: #FFCCCC
+        &--contenu>.coeur-plein {
+            display: none;
+        }
+
+        &--contenu>.coeur-vide:hover {
+            color: #ff08ea;
+        }
+
+        &--contenu>.coeur-vide:hover>.coeurplein {
+            display: inline-block;
         }
 
         &--new {

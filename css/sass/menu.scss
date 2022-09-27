@@ -91,17 +91,20 @@ hr {
     &__bouton {
         display: flex;
         justify-content: space-between;
+        overflow: hidden;
 
         &--animation {
-            margin-right: -30px;
+            overflow: hidden;
             display: flex;
             justify-content: center;
             align-items: center;
-            transform: scale(0);
-            transition: transform 1s;
+            width: 0;
+            height: 85px;
+            transition: width 1s;
+            background-color: aquamarine;
         }
-        &:hover > &--animation {            
-            transform: scale(1.15);
+        &:hover > &--animation {
+            width: 80px;
         }
 
         &--prix {
