@@ -180,20 +180,30 @@ hr {
   justify-content: center;
   align-items: center;
   width: 0;
-  height: 85px;
-  transition: width 1s;
-  background-color: aquamarine;
+  height: 90px;
+  transition: width 0.8s;
+  background-color: #99E2D0;
+  font-size: 25px;
+  color: white;
 }
 .bloc-menu__bouton:hover > .bloc-menu__bouton--animation {
-  width: 80px;
+  width: 130px;
+}
+.bloc-menu__bouton--animation > i {
+  transition: all 0.5s 0.1s;
+}
+.bloc-menu__bouton:hover > .bloc-menu__bouton--animation > i {
+  transform: rotate(360deg);
 }
 .bloc-menu__bouton--prix {
+  width: auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-end;
-  margin-right: 30px;
+  margin-right: 5px;
 }
 .bloc-menu__bouton--infos {
+  width: 100%;
   white-space: nowrap;
   overflow: hidden;
   margin-left: 15px;
