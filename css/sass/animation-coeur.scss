@@ -7,11 +7,8 @@
     position: relative;
 
     &--plein {
-        position: absolute;
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-        background-color: white;
+        position: absolute;  
+        color: white;
     
     }
 
@@ -21,14 +18,17 @@
 
     }
     &--vide:hover {
+        transition: all 0.2s;
 
-        background: linear-gradient(0deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 65%);
+        background-image: linear-gradient(0deg, rgba(255,121,218,1) 25%, rgba(147,86,220,1));
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
     }
     &--vide:hover + .coeur--plein {
-        background: linear-gradient(0deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 65%);
+
+        transition: all 0.8s;
+        background-image: linear-gradient(0deg, rgba(255,121,218,1) 25%, rgba(147,86,220,1));
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
