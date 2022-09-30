@@ -2,6 +2,7 @@
 @import 'header.scss';
 @import 'btn-violet.scss';
 @import 'modal.scss';
+@import 'animation-coeur.scss';
 
 /* body */
 body {
@@ -172,26 +173,6 @@ img {
                 margin-top: 10px;
                 margin-bottom: 0;
             }
-        }
-
-        &--contenu>i {
-            align-self: flex-end;
-            margin-right: 35px;
-            font-size: x-large;
-            transition: color 1s;
-
-        }
-
-        &--contenu>.coeur-plein {
-            display: none;
-        }
-
-        &--contenu>.coeur-vide:hover {
-            color: #ff08ea;
-        }
-
-        &--contenu>.coeur-vide:hover>.coeurplein {
-            display: inline-block;
         }
 
         &--new {
