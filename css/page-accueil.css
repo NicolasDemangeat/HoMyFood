@@ -380,22 +380,22 @@ img {
     left: 300px;
   }
 }
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 560px) {
   .bloc-restau__tuile--new {
     left: 400px;
   }
 }
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 660px) {
   .bloc-restau__tuile--new {
     left: 490px;
   }
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 770px) {
   .bloc-restau__tuile--new {
     left: 590px;
   }
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 860px) {
   .bloc-restau__tuile--new {
     left: 670px;
   }
