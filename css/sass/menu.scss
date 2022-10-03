@@ -5,7 +5,7 @@
 
 /* body */
 body {
-    background: url(../../assets/fon.jpg);
+    background: linear-gradient(rgba(147, 86, 220, .5)35%, rgba(153, 226, 208,.8) 45%,rgba(255, 121, 218, .5) 55%);
 }
 
 .bloc-page {
@@ -28,7 +28,9 @@ img {
 hr {
     border:solid 2px #99E2D0;
     width: 45px;
-    margin: 5px 0 10px 0;
+    margin-left: 5%;
+    margin-top: 2px;
+    margin-bottom: 18px;
 }
 
 /* image en-tête */
@@ -61,11 +63,8 @@ hr {
     align-items: center;
 
     >h3{
-        margin-bottom: 5px;
+        margin-bottom: 1px;
         width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        align-self: flex-start;
         font-weight: normal;
     }
 
@@ -110,7 +109,7 @@ hr {
         }
 
         &--animation>i {
-            transition: all 0.5s 0.15s;
+            transition: all 0.5s 0.1s;
         }
         &:hover > &--animation>i {
             transform: rotate(360deg);
